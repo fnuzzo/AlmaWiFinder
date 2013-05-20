@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlmaFinder</string>
+     <string name="menu_Download">Download</string>
+    <string name="menu_List">List</string>
+    <string name="styled_textAddress"><b><strong>ADDRESS: </strong> </b></string>
+    <string name="styled_textDesc"><strong>DESCRIPTION: </strong></string>
+     <string name="styled_textName"><bold>ACCESS POINT: </bold></string>
+    <string name="alert_dialog_two_buttons_title">
+       None point list found, go to the get kml to download one!
+    </string>  
+    <string name="alert_dialog_ok">OK</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="androidFile.AlmaWiFinder"
+  android:versionCode="1"
+  android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AlmaWiFinder" android:label="@string/app_name">
+          <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />         
+          </intent-filter>
+        </activity>
+
+    	<activity android:name="AlmaList">
+    		<intent-filter>
+    			<action android:name="android.intent.action.MAIN"></action> 
+    		</intent-filter>
+		</activity>
+		
+		<activity android:name="AlmaDownload">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+			</intent-filter>
+		</activity>
+  		
+  		<activity android:name="AlmaView">
+  			<intent-filter>
+  				<action android:name="android.intent.action.VIEW"></action>
+			</intent-filter>
+		</activity>
+ 		<uses-library android:name="com.google.android.maps" /> 
+	</application>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 
+
